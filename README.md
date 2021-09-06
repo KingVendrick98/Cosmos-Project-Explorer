@@ -1,2 +1,2 @@
-# Cosmos-Project
-Cosmos Project
+# Cosmos-Project-Explorer
+Cosmos Project Explorer
