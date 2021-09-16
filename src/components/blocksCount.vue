@@ -1,6 +1,6 @@
 <template>
   <div class="container" id ="count">
-     Finalized Blocks {{blocks}}
+     Finished Blocks {{blocks}}
   </div>
 </template>
 <script>
