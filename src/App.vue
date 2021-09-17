@@ -1,8 +1,9 @@
 <template>
-<div class="col-3"><h3>Cosmos Explorer:</h3></div>
+ <div :style="{'background-image': 'url(' + require('/home/ivelin/cosmos-explorer/Cosmos-Project-Explorer/public/img/icons/download (1).jpeg') + ')'}"></div>
+<div class="col-3"><h3>Cosmos Explorer</h3></div>
   <div id="nav" class="col-12git reflog">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-dark bg-primary">
 
       <div class="container">
     <router-link to="/">Home</router-link> |
@@ -48,7 +49,7 @@
 }
 #nav {
   
-  padding: 30px;
+  padding: 5px;
   padding-top: 0;
 }
 #nav a {

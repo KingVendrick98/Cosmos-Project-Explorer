@@ -15,9 +15,9 @@ import axios from 'axios';
     },
     mounted () {
       axios
-        .get(this.api+'/blocks')
+        .get(`https://api.cosmos.network/blocks/latest`)
         .then(res => {
-          this.blocks = res.data.block.header.number;
+          this.blocks = res.data.block.header.height;
         })
         .catch(error => console.log(error))
     }

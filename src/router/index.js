@@ -15,7 +15,7 @@ const routes = [
   {
     path: '/blocks/number',
     name: 'BlockByNumber',
-    component: () => import( '../components/blockByNumber.vue')
+    component: () => import( '../components/blockNumber.vue')
   },
   {
     path: '/blocks',
@@ -35,7 +35,7 @@ const routes = [
   {
     path: '/blocks/hash',
     name: 'BlockByHash',
-    component: () => import('../components/blockByHash.vue')
+    component: () => import('../components/blockHash.vue')
   },
   {
     path: '/address',
